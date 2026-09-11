@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Recipe from Fridge",
+  title: "House Maker",
   description:
-    "List what's in your fridge, get recipe ideas and a shopping list for what's missing.",
+    "Tell it what's in your kitchen and get the top 3 dishes you can cook right now.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
