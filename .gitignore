@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated house-maker docx output (regenerated per request; generate.js itself is tracked)
+/output/*.docx
+/output/node_modules
+/output/package.json
+/output/package-lock.json
